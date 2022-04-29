@@ -10,6 +10,7 @@
 
    and install the below packages by following the commands
 
+   - npm install [Click Enter]
    - npm install cors [Click Enter]
    - npm install express [Click Enter]
 
