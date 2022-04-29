@@ -1,0 +1,129 @@
+.about {
+    padding: 50px 0;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.about ul li+li {
+    margin-top: 10px;
+}
+
+.about ul li {
+    position: relative;
+    padding-left: 26px;
+}
+
+.about ul i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 22px;
+    color: #34db87;
+}
+
+.about .icon-boxes {
+    padding-top: 10px;
+}
+
+.about .icon-boxes i {
+    font-size: 48px;
+    color: #34db87;
+}
+
+.about .icon-boxes p {
+    font-size: 15px;
+    color: #848484;
+}
+
+.btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #ffffff;
+    background: rgb(30, 219, 115);
+    text-transform: uppercase;
+}
+
+/*button*/
+.btn {
+	font-size: 18px;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #00a8ff;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background: transparent;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+	color: #00a8ff;
+}
+
+.btn.btn-blue {
+	background: white;
+}
+
+.btn.btn-blue:hover {
+	background: #00a8ff;
+}
+
+.btn.btn-blue-fill {
+	color: white;
+	border-color: #00a8ff;
+	background: transparent;
+}
+
+.btn.btn-blue-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
+
+.btn.btn-white-fill {
+	color: #00a8ff;
+	border-color: #00a8ff;
+	/* background: transparent; */
+}
+
+.btn.btn-white-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
+
+/*half bg*/
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .right {
+    right: 0;
+    background-color: #00a8ff;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/**/

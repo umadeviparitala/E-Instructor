@@ -1,0 +1,65 @@
+  .about {
+      padding-top: 5px;
+  }
+  
+  .btn-get-started {
+      font-family: "Poppins", sans-serif;
+      font-size: 25px;
+      letter-spacing: 2px;
+      display: inline-block;
+      padding: 12px 28px;
+      padding-bottom: 10px;
+      border-radius: 4px;
+      transition: ease-in-out 0.3s;
+      color: #ffffff;
+      background: rgb(30, 219, 162);
+      text-transform: uppercase;
+  }
+
+  /*button*/
+.btn {
+	font-size: 18px;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #00a8ff;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background: transparent;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+	color: #00a8ff;
+}
+
+.btn.btn-blue {
+	background: white;
+}
+
+.btn.btn-blue:hover {
+	background: #00a8ff;
+}
+
+.btn.btn-blue-fill {
+	color: white;
+	border-color: #00a8ff;
+	background: transparent;
+}
+
+.btn.btn-blue-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
+
+.btn.btn-white-fill {
+	color: #00a8ff;
+	border-color: #00a8ff;
+	/* background: transparent; */
+}
+
+.btn.btn-white-fill:hover {
+	color: white;
+	background: #00a8ff;
+}

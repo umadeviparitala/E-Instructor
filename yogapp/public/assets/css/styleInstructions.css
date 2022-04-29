@@ -1,0 +1,252 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    height: 100%;
+    margin: 0%;
+}
+
+a {
+    color: #000303;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #11da43;
+    ;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #34db8d;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #57e19c;
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.section-bg {
+    background-color: #f7fbfe;
+}
+
+.section-title {
+    text-align: center;
+    color: black;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+/*--------------------------------------------------------------
+  # Instructions
+  --------------------------------------------------------------*/
+
+.what-we-do .icon-box {
+    text-align: center;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+}
+
+.what-we-do .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #eaf4fb;
+    /* border-radius: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box .icon i {
+    color: #00a8ff;
+    size: 28px;
+}
+
+/*icon*/
+
+
+.what-we-do .icon-box .icon-holder > img.icon {
+	width: 50px;
+}
+/**/
+
+.what-we-do .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.what-we-do .icon-box h4 a {
+    color: #384046;
+    transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* .what-we-do .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(50, 236, 174, 0.918);
+}
+
+.what-we-do .icon-box:hover h4 a,
+.what-we-do .icon-box:hover .icon i {
+    color: #34db66;
+} */
+
+.btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #00a8ff;
+    background: #fff;
+    text-transform: uppercase;
+}
+
+/**/
+
+.btn {
+	font-size: 18px;
+	display: inline-block;
+	padding: 15px 30px;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background: transparent;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+	color: white;
+}
+
+.btn.btn-blue {
+	background: #00a8ff;
+}
+
+.btn.btn-blue:hover {
+	background: #31b9ff;
+}
+
+.btn.btn-blue-fill {
+	color: #00a8ff;
+	border-color: #00a8ff;
+	background: transparent;
+}
+
+.btn.btn-blue-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
+
+.btn.btn-white-fill {
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.btn.btn-white-fill:hover {
+	color: #00a8ff;
+	background: #fff;
+}
+
+/*half bg*/
+
+body {
+    background-color: white;
+}
+#background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 40%;
+    height: 100%;
+    background-color: #00a8ff;
+    z-index: 1;
+}
+
+/**/
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #00a8ff;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  

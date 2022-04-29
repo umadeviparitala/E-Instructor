@@ -1,0 +1,175 @@
+.about {
+    padding-top: 30px;
+}
+
+.about h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.about ul li+li {
+    margin-top: 10px;
+}
+
+.about ul li {
+    position: relative;
+    padding-left: 26px;
+}
+
+.about ul i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 22px;
+    color: #34db7f;
+}
+
+.services .icon-box {
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.services .icon-box .text {
+    color: rgb(9, 8, 8);
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.services .icon-box .container {
+    position: relative;
+    width: 50%;
+}
+
+.services .icon-box .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.services .icon-box .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.services .icon-box .container:hover .overlay {
+    width: 100%;
+}
+
+.services .icon-box i {
+    float: left;
+    color: #5034db;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.services .icon-box h4 a {
+    color: #384046;
+    transition: 0.3s;
+}
+
+.services .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.services .icon-box:hover {
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+}
+
+.services .icon-box:hover h4 a {
+    color: #4534db;
+}
+
+.btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #ffffff;
+    background: rgb(30, 58, 219);
+    text-transform: uppercase;
+}
+
+/*button*/
+.btn {
+	font-size: 18px;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #00a8ff;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background: transparent;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+	color: #00a8ff;
+}
+
+.btn.btn-blue {
+	background: white;
+}
+
+.btn.btn-blue:hover {
+	background: #00a8ff;
+}
+
+.btn.btn-blue-fill {
+	color: white;
+	border-color: #00a8ff;
+	background: transparent;
+}
+
+.btn.btn-blue-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
+
+.btn.btn-white-fill {
+	color: #00a8ff;
+	border-color: #00a8ff;
+	/* background: transparent; */
+}
+
+.btn.btn-white-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
